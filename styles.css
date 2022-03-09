@@ -1,1 +1,68 @@
 /* Copy and paste your CSS from CodePen into here */
+.flex-container {
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .info-box {
+      border-style: solid;
+      border-color: black;
+      border-width: 2px;
+  }
+  #img-div {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    position:relative;
+    margin:auto;
+    
+  }
+  
+  #image {
+    margin:auto;
+    max-width : 500px;
+    max-height : 600px;
+  }
+  
+  #img-caption{
+    margin:auto;
+    color: red;
+  }
+    
+  h2 {
+    color : blue;
+    text-align: center;
+  }
+  
+  #intro {
+    display:flex;
+    flex-direction:column;
+    max-width: 1000px;
+    justify-content: center;
+    text-align:center;
+    margin:auto;
+    background-color: #80FFEA;
+  }
+  
+  #filler {
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+    max-width: 1000px;
+    background-color: #D96C00;
+    margin-top: 10px;
+  }
+  #danger {
+    width: 45%;
+  }
+  #types {
+    width: 45%;
+  }
+  a:hover{
+    color: orange;
+  }
+  
+  #link{
+    text-align: center;
+    margin:auto
+  }
